@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-1.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Iniciar Sesión - EurekaCosmoTech</title>
+</head>
+<body>
+    <header>
+        <h1>EurekaCosmoTech</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="Tecnologia.html">Tecnología</a></li>
+                <li><a href="Astronomia.html">Astronomía</a></li>
+                <li><a href="Ciencia.html">Ciencia</a></li>
+                <li><a href="Registro.html">Registrarse</a></li>
+                <li><a href="iniciar.html">Iniciar sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="login-section">
+        <h2>Iniciar Sesión</h2>
+        <form action="sesion.php" method="post">
+            <label for="username">Nombre de Usuario:</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required>
+            
+            <button type="submit">Iniciar Sesión</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 EurekaCosmoTech. Todos los derechos reservados. | <a href="#">Términos y Condiciones</a></p>
+    </footer>
+</body>
+</html>
